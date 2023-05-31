@@ -1,11 +1,11 @@
 import { SSTConfig } from 'sst';
 
 export default {
-  config(_input) {
+  config() {
     return {
-      name: '@@app',
-      region: 'us-east-1',
+      name: 'appbase',
+      region: 'us-west-2',
     };
   },
-  stacks(app) {},
+  stacks() {},
 } satisfies SSTConfig;
